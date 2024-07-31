@@ -58,7 +58,8 @@
       // 🧠 Implement a `getAllReversed` method which returns the ints in reverse order
       // ❗ WARNING: except for `getAllReversed`, methods must respect the order of the integers
       // ❗ WARNING: note that none of the methods actually mutate the `ints` property
- class Integers {
+
+    class Integers {
        constructor(...args) {
     this.ints = args.filter(Number.isInteger); 
   }
@@ -106,6 +107,7 @@
       //      * When disengaging the safety, return "Safety disabled!"
       // 🌟 HINT: instances need to keep track of their maximum capacity as well as their current capacity
 
+    
     class NerfGun {
   constructor(totalProjectiles){
 this.capacity = totalProjectiles
@@ -169,6 +171,7 @@ toggleSafety(){
 
   const startindex = this.currentpage * this.wordcount
   const endindex = startindex + this.wordcount
+ 
   if(startindex >= this.text.length){
   return null 
   }
